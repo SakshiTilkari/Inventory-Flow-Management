@@ -19,8 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI= npm run build && npm run tailwind:build",
-    "tailwind:build": "tailwindcss -o ./build/tailwind.css --minify",
+    "build": "CI= react-scripts build && npm run tailwind:build",
+  "tailwind:build": "tailwindcss -o ./build/tailwind.css --minify",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
