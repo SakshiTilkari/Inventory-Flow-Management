@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import { useAuth } from '../context/AuthContext';
-import ProductList from '../components/Products/ProductList';
-import ProductForm from '../components/Products/ProductForm';
-import { getProducts } from '../services/products';
+import { useState, useEffect } from "react";
+import { useAuth } from "../context/AuthContext";
+import ProductList from "../components/Products/ProductList";
+import ProductForm from "../components/Products/ProductForm";
+import { getProducts } from "../services/products";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -21,7 +21,7 @@ const Products = () => {
       const data = await getProducts();
       setProducts(data.data);
     } catch (error) {
-      console.error('Error fetching products:', error);
+      console.error("Error fetching products:", error);
     } finally {
       setLoading(false);
     }
@@ -46,7 +46,7 @@ const Products = () => {
     <div className="p-6">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-bold text-gray-800">Products</h2>
-        {user?.role === 'staff' && (
+        {(user?.role === "staff" || user?.role === "admin") && (
           <button
             onClick={() => setShowForm(true)}
             className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700"
