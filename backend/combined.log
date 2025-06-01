@@ -59,3 +59,10 @@
 {"level":"info","message":"MongoDB Connected: localhost","timestamp":"2025-06-01T07:18:26.682Z"}
 {"level":"info","message":"Server running in undefined mode on port 5000","timestamp":"2025-06-01T08:14:09.670Z"}
 {"level":"info","message":"MongoDB Connected: localhost","timestamp":"2025-06-01T08:14:09.708Z"}
+{"level":"info","message":"Server running in undefined mode on port 5000","timestamp":"2025-06-01T12:55:35.884Z"}
+{"level":"info","message":"Server running in undefined mode on port 5000","timestamp":"2025-06-01T12:55:37.401Z"}
+{"level":"info","message":"MongoDB Connected: ac-kh3s25l-shard-00-00.3jke2ts.mongodb.net","timestamp":"2025-06-01T12:55:38.004Z"}
+{"level":"info","message":"Server running in undefined mode on port 5000","timestamp":"2025-06-01T12:55:50.253Z"}
+{"level":"info","message":"MongoDB Connected: ac-kh3s25l-shard-00-00.3jke2ts.mongodb.net","timestamp":"2025-06-01T12:55:50.875Z"}
+{"level":"info","message":"Server running in undefined mode on port 5000","timestamp":"2025-06-01T12:56:35.299Z"}
+{"level":"info","message":"MongoDB Connected: ac-kh3s25l-shard-00-00.3jke2ts.mongodb.net","timestamp":"2025-06-01T12:56:36.632Z"}

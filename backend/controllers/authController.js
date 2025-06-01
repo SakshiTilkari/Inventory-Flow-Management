@@ -66,3 +66,10 @@ exports.login = async (req, res, next) => {
     next(err);
   }
 };
+
+exports.logout = async (req, res, next) => {
+  res.status(200).json({
+    success: true,
+    message: 'Logged out successfully. Please remove the token from client-side storage.'
+  });
+};
