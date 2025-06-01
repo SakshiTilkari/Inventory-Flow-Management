@@ -57,3 +57,5 @@
 {"level":"info","message":"MongoDB Connected: localhost","timestamp":"2025-06-01T07:18:11.999Z"}
 {"level":"info","message":"Server running in undefined mode on port 5000","timestamp":"2025-06-01T07:18:26.638Z"}
 {"level":"info","message":"MongoDB Connected: localhost","timestamp":"2025-06-01T07:18:26.682Z"}
+{"level":"info","message":"Server running in undefined mode on port 5000","timestamp":"2025-06-01T08:14:09.670Z"}
+{"level":"info","message":"MongoDB Connected: localhost","timestamp":"2025-06-01T08:14:09.708Z"}
